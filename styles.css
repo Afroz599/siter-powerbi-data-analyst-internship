@@ -1,0 +1,33 @@
+/* Custom Styles for Personal Expense Tracker */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.font-heading {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    transition: all 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    transition: all 0.3s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Mobile navbar improvement (Bootstrap handles collapse) */
+@media (max-width: 767px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-item {
+        margin: 0.5rem 0;
+    }
+}
